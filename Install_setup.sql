@@ -10,4 +10,6 @@ GRANT create mining model TO vector_user;
 -- Grant the 23ai new DB_DEVELOPER_ROLE to the user
 grant DB_DEVELOPER_ROLE to vector_user;
 
+-- setup access
+
 
