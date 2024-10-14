@@ -1,15 +1,15 @@
 -- BLUE connect as user sys to FREEPDB1
--- delete the TBS_VECTOR01 datafile and VECTOR_USER01 before start
+-- delete the TBS_VECTOR datafile and VECTOR_USER before start if exists
 /* 
 
-DROP TABLESPACE TBS_VECTOR01
+DROP TABLESPACE TBS_VECTOR
    INCLUDING CONTENTS AND DATAFILES;
-drop user "VECTOR_USER01" CASCADE; 
+drop user "VECTOR_USER" CASCADE; 
 
 */
 
 -- Step 1 - Create Tablespace
-create bigfile tablespace TBS_VECTOR datafile '/opt/oracle/oradata/FREE/FREEPDB1/tbs_vector01.dbf' size 256M autoextend on maxsize 2G;
+create bigfile tablespace TBS_VECTOR datafile '/opt/oracle/oradata/FREE/FREEPDB1/tbs_vector.dbf' size 256M autoextend on maxsize 2G;
 
 -- Step 2 - Create User and Grant Accesses
 create user vector_user identified by "Oracle_4U"
