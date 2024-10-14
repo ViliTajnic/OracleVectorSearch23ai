@@ -70,6 +70,7 @@ select rownum,
        sentence,
        TO_VECTOR(VECTOR_EMBEDDING(doc_model USING sentence as data))
 from CCNEWS_TMP;
+COMMIT;
 
 -- More on vector distance here: https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/vector_distance.html*/
 
