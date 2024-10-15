@@ -31,7 +31,7 @@ https://frt4wbawy9o0.objectstorage.eu-frankfurt-1.oci.customer-oci.com/p/jhEbjXL
 CREATE OR REPLACE DIRECTORY dm_dump as '/home/oracle';
 GRANT READ, WRITE ON DIRECTORY dm_dump TO vector_user;
 
-
+-- open red_vector_user.sql file to continue and return here after completing all the steps
 
 -- Step 15 After running vector search demo go to configuring API and access connect as sys to pdb FREEPDB1
 -- configure ORDS: connect as sys to pdb FREEPDB1 AFTER embbeding
