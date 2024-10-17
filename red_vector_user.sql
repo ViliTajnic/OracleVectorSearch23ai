@@ -71,7 +71,7 @@ select rownum,
 from CCNEWS_TMP;
 COMMIT;
 
--- More on vector distance here: https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/vector_distance.html*/
+-- More on vector distance here: https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/vector_distance.html
 
 /* formating for running in sqlplus:
 set timing on
@@ -80,6 +80,7 @@ set lines 120
 */
 
 -- Step 13 - Run a vector search against the input string
+
 select id, info
 from CCNEWS
 order by vector_distance(vec, TO_VECTOR(VECTOR_EMBEDDING(doc_model USING 'japanese car industry' as data)), COSINE)
