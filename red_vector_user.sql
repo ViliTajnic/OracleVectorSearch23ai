@@ -54,7 +54,6 @@ FROM user_mining_model_attributes
 WHERE model_name = 'DOC_MODEL'
 ORDER BY attribute_name;
 
-
 -- Step 11 - Create a target table with a column vec with data type VECTOR
 
 create table if not exists CCNEWS (
