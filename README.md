@@ -4,9 +4,9 @@ It is divided into two PL/SQL scripts for better understanding of the process. B
 Environment Requirements
 Before running this demo, ensure your environment is configured as follows:
 
-Oracle Linux 8 ->
-Oracle Database 23ai Free Release 23.5.0.24.07
-Oracle REST Data Services 24.2.3.r2011847
+- Oracle Linux 8 or latter
+- Oracle Database 23ai Free Release 23.5.0.24.07
+- Oracle REST Data Services 24.2.3.r2011847
 
 PL/SQL Script 1: Environment Setup
 The first script is responsible for:
