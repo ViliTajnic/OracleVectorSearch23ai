@@ -8,14 +8,14 @@ Before running this demo, ensure your environment is configured as follows:
 - Oracle Database 23ai Free Release 23.5.0.24.07
 - Oracle REST Data Services 24.2.3.r2011847
 
-PL/SQL Script 1: Environment Setup
-The first script is responsible for:
+PL/SQL Script blue_initialization_setup.sql is Environment Setup.
+This first script is responsible for:
 
 Defining the Tablespace
 Creating the User Schema
 Assigning the necessary Permissions
 
-PL/SQL Script 2: Process Execution
+PL/SQL script red_vector_user is Process Execution.
 The second script takes a step-by-step approach to building the solution. The key steps include:
 
 Using Data Sources
