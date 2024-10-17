@@ -1,4 +1,4 @@
-This demo showcases an AI-powered solution using Oracle Database's advanced features Vector Search. 
+This demo showcases Vector Search an AI-powered solution using Oracle Database's.  
 It is divided into two PL/SQL scripts for better understanding of the process. Below is a brief outline of each script's purpose, the steps followed in this demo, and the required environment setup.
 
 Environment Requirements
