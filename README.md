@@ -1,4 +1,4 @@
-This demo showcases Vector Search an AI-powered solution using Oracle Database's.  
+This demo showcases Vector Search an AI-powered solution using new Oracle Database 23ai Free Edition.   
 It is divided into two PL/SQL scripts for better understanding of the process. Below is a brief outline of each script's purpose, the steps followed in this demo, and the required environment setup.
 
 Environment Requirements
@@ -38,6 +38,5 @@ Leveraging Oracle's vector database capabilities for storing and querying vector
 Similarity Search
 
 Implementing similarity search to find related documents or records based on embeddings.
-API Access Configuration
 
-Configuring API access for external applications to interact with the schema and perform operations.
+Configuring API access for external applications in our case browser to interact with the schema and perform operations.
