@@ -18,25 +18,17 @@ Assigning the necessary Permissions
 PL/SQL script red_vector_user is Process Execution.
 The second script takes a step-by-step approach to building the solution. The key steps include:
 
-Using Data Sources
-
-Configuring the data sources that will feed the AI-driven features.
-Enabling Document Loader with External Table Feature
-
-Setting up external tables to load documents for processing.
-Document Transformation
-
-Performing transformations like:
-Text Splitting
-Summarization
-Embedding Model
-
-Using an embedding model to convert data into vectors for analysis.
-Vector Database
-
-Leveraging Oracle's vector database capabilities for storing and querying vectors.
-Similarity Search
-
-Implementing similarity search to find related documents or records based on embeddings.
-
-Configuring API access for external applications in our case browser to interact with the schema and perform operations.
+- Using Data Sources
+- Configuring the data sources that will feed the AI-driven features. Enabling Document Loader with External Table Feature
+- Setting up external tables to load documents for processing.
+- Document Transformation
+- Performing transformations like:
+    Text Splitting
+    Summarization
+    Embedding Model
+- Using an embedding model to convert data into vectors for analysis.
+- Vector Database
+    Leveraging Oracle's vector database capabilities for storing and querying vectors.
+    Similarity Search
+    Implementing similarity search to find related documents or records based on embeddings.
+    Configuring API access for external applications in our case browser to interact with the schema and perform operations.
