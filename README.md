@@ -31,4 +31,4 @@ The second script takes a step-by-step approach to building the solution. The ke
     Leveraging Oracle's vector database capabilities for storing and querying vectors.
     Similarity Search
     Implementing similarity search to find related documents or records based on embeddings.
-    Configuring API access for external applications in our case browser to interact with the schema and perform operations.
+- Configuring API access for external applications in our case browser to interact with the schema and perform operations.
